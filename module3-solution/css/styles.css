@@ -1,0 +1,77 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #6a964f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#navbar-header {
+  background-color: #3f771c;
+  border-radius: 0;
+  border: 0;
+}
+#header-title {
+  color: #000;
+  font-size: 1.6em;
+}
+#menu-list {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#navbar-collapse-menu ul li {
+  border-bottom: 1px solid black;
+  margin: 0 10px 0;
+}
+/* END HEADER */
+
+/* FOOTER */
+
+/* END FOOTER */
+
+/* HOME PAGE */
+#menu_title {
+  margin-bottom: 30px;
+}
+#main-content {
+  width: 94%;
+  margin: auto;
+}
+#content div {
+  background-color: #f6b319;
+  margin-bottom: 10px;
+}
+/* END HOME PAGE */
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #navbar-collapse-menu {
+    background-color: #6a964f;
+  }
+  #navbar-collapse-menu a {
+    color: #000000;
+    font-size: 1.3em;
+  }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+}
