@@ -38,8 +38,15 @@ body {
   margin: auto;
 }
 #content div {
-  background-color: #f6b319;
+  background-color: #fff;
   margin-bottom: 10px;
+}
+#content .box {
+  padding: 0 5px -5px 5px;
+}
+#content .box div {
+  background-color: #f6b319;
+  padding: 2px 15px 2px 15px;
 }
 /* END HOME PAGE */
 
